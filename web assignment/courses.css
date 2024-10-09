@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+#container1{
+    margin-bottom: 0;
+    width: 20%;
+    background-color: black;
+    color:white;
+    float: right;
+}
+#container2{
+    height: 100%;
+    width:70%;
+    float: left;
+}
+h1,h3{
+    text-decoration: underline;
+}
+.Python{
+    text-align: left;
+    background-color: lightblue;
+}
+.pypic{
+display:flex;
+float: right;
+}
+
+.CyberSecurity{
+    background-repeat: no-repeat;
+    background-position: left;
+  
+}
+.Javascript{
+    background-color: black;
+    color: white;
+}
+.japic{
+    width: 100%;
+}
+#info{
+margin:80px auto;
+width: 180px;
+height:20px;
+border:3px solid white;
+border-radius:15px;
+}
+#button{
+    background-color:white;
+	color: black;
+	cursor: pointer;
+    border-radius: 30px;
+    width: 70px;
+height:30px;
+border:3px solid white;
+
+}

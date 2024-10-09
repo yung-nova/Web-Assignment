@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="courses.css" type="text/css">
+    <title>Courses</title>
+</head>
+<body>
+    <div id="container1" >
+        <h2 >Sign Up To Join</h2>
+        <input type="Name" id= "info" placeholder="Your Fullname">
+       <input type="email" id= "info" placeholder="Your E-mail">
+       <input type="tel" id= "info" placeholder="Your CellNumber">
+       <select id= "info" name="select">
+        <option value="Python">Python</option>
+        <option value="CyberSecurity">CyberSecurity</option>
+        <option value="JavaScript">JavaScript</option>
+    </select>
+    <button id="button" onclick="linkToPage()">Sign up</button>
+    </div>
+    <script>
+ function linkToPage(){
+        var link= document.getElementById('sign').href;
+        window.location.href= link;
+ }
+    </script>
+    <div id="container2">
+    <div class ="Python">
+        <h1>Python</h1>
+        <p>Python is high level, interpreted programming language that is widely used for various purposes such as web developmeny, scientific computing, data analysis, artificial intelligence, and more</p>
+        <h3>Key Features</h3>
+        <p>1. Easy to Learn: Simple syntax and readability make Python an ideal language for beginners.</p>
+        <p>2. Versatile: Python can be used for web development, scripting, data analysis, machine learning, and more.</p>
+        <p>3. Cross-Platform: Python runs on multiple operating systems, including Windows, macOS, and Linux.</p>
+        <p>4. Large Community: Extensive libraries, frameworks, and resources available.</p>
+        <p>5. Dynamic Typing: No need to declare variable types before using them.</p>
+        <h3>Career Prospects</h3>
+        <p> 1. Data Scientist</p>
+        <p>2. Web Developer</p>
+        <p>3. Machine Learning Engineer</p>
+        <p>4. Automation Specialist</p>
+        <p>5. Research Scientist</p>
+        <p>6. Software Developer</p>
+        <p>7. Data Analyst</p>
+        <img id="pypic" src="pythondownload.jpeg">
+    
+
+    </div>
+
+    <div class="CyberSecurity">
+        <h1>CyberSecurity</h1>
+        <p>Cybersecurity refers to the practices, technologies, and processes designed to protect digital information, computer systems, and electronic data from unauthorized access, use, disclosure, disruption, modification, or destruction.</p>
+        <h3>Types of CyberSecurity</h3>
+        <p>1. Network Security: Protecting computer networks from unauthorized access, misuse, or theft.</p>
+        <p>2. Application Security: Securing software and applications from vulnerabilities and threats.</p>
+        <p>3. Information Security: Protecting sensitive information from unauthorized access, use, or disclosure.</p>
+        <p>4. Cloud Security: Protecting data and applications stored online through cloud services.</p>
+        <p>5. Endpoint Security: Protecting individual devices like computers, smartphones, and laptops.</p>
+        <p>6. Internet of Things (IoT) Security: Securing devices connected to the internet, such as smart home devices.</p>
+        <h3>Cybersecurity Careers</h3>
+        <p>1. Security Analyst: Monitoring and analyzing security threats.</p>
+        <p>2. Penetration Tester: Simulating attacks to test defenses.</p>
+        <p>3. Chief Information Security Officer (CISO): Overseeing organizational security.</p>
+        <p>4. Incident Responder: Managing security breaches.</p>
+        <p>5. Security Consultant: Advising on security best practices.</p>
+        <img id="cypic" src="wallpapersden.com_cybersecurity-core_3840x2160.jpg" height="100px"width="80px">
+    
+    </div>
+    <div class="Javascript">
+        <h1>Javascript</h1>
+        <p>JavaScript is a high-level, dynamic, and interpreted programming language used primarily for client-side scripting on the web. It's a crucial tool for creating interactive and dynamic web pages, web applications, and mobile applications.</p>
+        <h3>Uses</h3>
+       <p>1. Web development: Client-side scripting for interactive web pages</p>
+       <p>2. Mobile and desktop applications</p>
+       <p>3. Game development</p>
+       <p>4. Server-side programming (Node.js)</p>
+       <p>5. Machine learning and AI</p>
+       <p>6. Scripting for databases and multimedia</p>
+       <img id="japic" src="javadownload.png">
+
+       
+    
+      
+    </div>
+ </div>
+ <a href="Signedup.html" id="sign">Thank you</a>
+ 
+</body>
+</html>

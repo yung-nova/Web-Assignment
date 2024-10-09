@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel = "stylesheet" href="styles.css" type="text/css">
+
+</head>
+<body class="body">
+<div class = "navbar" id="myNavbar">
+    <a id = "Btnlink" href ="course.html">Courses </a>
+    <a href ="about.html">About-Us</a>
+    <a href ="contact.html">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+    
+</div>  
+
+<div class ="heading">
+<span class ="title1">TechPro Academy</span>
+<span class ="title2">For those who love technology</span>
+
+<div class="intro">
+<h3>Welcome to TechPro Academy</h3>
+<p>TechPro is aleading IT academy dedicated to empowering individuals with the skills and knowledge required to succeed in the ever-evolving technology landscape.</p>
+</div>
+</div>
+
+
+<div id = "options">
+<button id= "Register" onclick="linkToPage()">Data Analysis</button>
+<button id= "Register" onclick="linkToPage()">CyberSecurity</button>
+<button id= "Register" onclick="linkToPage()">Python Programming</button>
+</div>
+<script>
+    function myFunction(){
+        var x = document.getElementsById("myNavbar");
+        if(x.className==="navbar"){
+            x.className +="responsive";
+        }
+    }
+    function linkToPage(){
+        var link= document.getElementById('Btnlink').href;
+        window.location.href= link;
+    }
+
+</script>
+
+
+</body>
+
+</html>
